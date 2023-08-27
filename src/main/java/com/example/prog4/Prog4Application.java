@@ -13,7 +13,7 @@ public class Prog4Application {
 
 		AuthService authService = context.getBean(AuthService.class);
 
-		authService.insertUser("onja", "1234");
+		authService.insertUser("nom utilisateur", "mots de passe");
 	}
 
 }
